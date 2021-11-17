@@ -1,12 +1,10 @@
-import { createStore } from 'vuex'
+import {createStore} from 'vuex'
+import {dogModule} from "@/store/dogModule";
+
 
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
+    modules: {
+        dog: dogModule
+    }
+
 })
