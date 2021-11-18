@@ -1,4 +1,4 @@
-# vue3_blog
+# Random_dog
 
 ## Project setup
 ```
